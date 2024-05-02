@@ -15,58 +15,67 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <h1><a href="index.html" class="navbar-brand font-weight-bold text-primary">Родословие на Димитрови</a></h1>
-        <div id="search" class="ml-auto mr-3 mt-4">
-          <!-- start of freefind search box html -->
-          <table cellpadding=0 cellspacing=0 border=0  style="display: inline-block;">
-            <tr>
-              <td  colspan=2 style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;">
-                <form style="margin:0px; margin-top:4px;" action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
-                <input type="hidden" name="si" value="72300424">
-                <input type="hidden" name="pid" value="r">
-                <input type="hidden" name="n" value="0">
-                <input type="hidden" name="_charset_" value="">
-                <input type="hidden" name="bcd" value="&#247;">
-                <input type="text" name="query" size="30">
-                <input type="submit" class="btn btn-sm bg-primary text-white" value="Търси">
-                </form>
-              </td>
-            </tr>
-            <tr>
-              <td style="text-align:left; font-family: Arial, Helvetica, sans-serif;	font-size: 7.5pt; padding-top:4px;">
-                <a style="text-decoration:none; color:gray;" href="https://www.freefind.com" rel="nofollow" >Сайтово търсене</a><a style="text-decoration:none; color:gray;" href="https://www.freefind.com"  rel="nofollow"> от
-                <span style="color: #606060;">freefind</span></a>
-              </td>	
-              <td style="text-align:right; font-family: Arial, Helvetica, sans-serif;	font-size: 7.5pt; padding-top:4px;">
-                <a href="https://search.freefind.com/find.html?si=72300424&amp;pid=a">Разширено търсене</a>
-              </td>
-            </tr>
-          </table>
-          <!-- end of freefind search box html -->
-        </div>
-        <div class="dropdown">
-          <button type="button" class="btn btn-primary btn-sm dropdown-toggle" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Потомци</button>
-          <div class="dropdown-menu" aria-labelledby="dropdownLanguage">
-            <a href="children.html" class="dropdown-item">Деца</a>
-            <a href="grandchildren.html" class="dropdown-item">Внуци</a>
-            <a href="great-grandchildren.html" class="dropdown-item">Правнуци</a>
-            <a href="great-great-grandchildren.html" class="dropdown-item">Праправнуци</a>
-            <a href="last-generation.html" class="dropdown-item">Последно поколение</a>
-          </div>
-        </div>
+        <h1 class="navbar-brand font-weight-bold text-primary align-items-center">Родословие на Димитрови</h1>
+
+        <ul class="list-inline mb-0 align-items-center">
+          <li class="list-inline-item"><a href="index.html" class="text-danger">Родоначалници</a></li>
+          <li class="list-inline-item"><a href="children.html">Деца</a></li>
+          <li class="list-inline-item"><a href="grandchildren.html">Внуци</a></li>
+          <li class="list-inline-item"><a href="great-grandchildren.html">Правнуци</a></li>
+          <li class="list-inline-item"><a href="great-great-grandchildren.html">Праправнуци</a></li>
+          <li class="list-inline-item"><a href="last-generation.html">Последно поколение</a></li>
+          <li class="list-inline-item"><a href="contact.html">Контакт</a></li>
+        </ul>
+        
       </div>
     </nav>
 
     <main>
       <div class="container mt-3 mb-5">
         <div class="row">
+          <div class="col-sm-8">
+            <p class="text-center mt-3">Бързо търсене: Натиснете <span class="font-weight-bold">CTRL + F</span> и търсете по ключова дума.</p>
+          </div>
+
+          <div id="search" class="col-sm-4">
+            <!-- start of freefind search box html -->
+            <table cellpadding=0 cellspacing=0 border=0  style="display: inline-block;">
+              <tr>
+                <td  colspan=2 style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;">
+                  <form style="margin:0px; margin-top:4px;" action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
+                  <input type="hidden" name="si" value="72300424">
+                  <input type="hidden" name="pid" value="r">
+                  <input type="hidden" name="n" value="0">
+                  <input type="hidden" name="_charset_" value="">
+                  <input type="hidden" name="bcd" value="&#247;">
+                  <input type="text" name="query" size="30">
+                  <input type="submit" class="btn btn-sm bg-primary text-white" value="Търси">
+                  </form>
+                </td>
+              </tr>
+              <tr>
+                <td style="text-align:left; font-family: Arial, Helvetica, sans-serif;	font-size: 7.5pt; padding-top:4px;">
+                  <a style="text-decoration:none; color:gray;" href="https://www.freefind.com" rel="nofollow" >Сайтово търсене</a><a style="text-decoration:none; color:gray;" href="https://www.freefind.com"  rel="nofollow"> от
+                  <span style="color: #606060;">freefind</span></a>
+                </td>	
+                <td style="text-align:right; font-family: Arial, Helvetica, sans-serif;	font-size: 7.5pt; padding-top:4px;">
+                  <a href="https://search.freefind.com/find.html?si=72300424&amp;pid=a">Разширено търсене</a>
+                </td>
+              </tr>
+            </table>
+            <!-- end of freefind search box html -->
+          </div>
+
+        </div>
+
+        <div class="row">
           <div class="col-12">
 						<div class="card">
 							<div class="card-body text-center">
-                <p class="text-center">Бързо търсене: Натиснете <span class="font-weight-bold">CTRL + F</span> и търсете по ключова дума.</p>
+                
 								<h2 class="card-title text-uppercase font-weight-bold">Родоначалници</h2>
 								<div class="card-text">
-                  <p><span class="font-weight-bold">ДИМИТЪР НАЙДЕНОВ МИЛЧЕВ</span>: роден - 1860 г. / починал – 1942 ? г. в ЛОВЕЧ.
+                  <p><span class="font-weight-bold">ДИМИТЪР НАЙДЕНОВ МИЛЧЕВ</span>: роден - 1860 г. / починал – 1942 г. в ЛОВЕЧ.
                     БАЩА – НАЙДЕН, МАЙКА - РУСА, ДЯДО – МИЛЧО, ИМАЛ  Е ТРИМА (ДВАМА) БРАТЯ.
                     ПЪРВИЯТ УЧИТЕЛ В С. СМОЧАН, БИЛ Е ПИСАР В АДВОКАТСКА КАНТОРА В ЛОВЕЧ.</p>
                 </div>
@@ -107,12 +116,10 @@
 							<div class="card-body text-center">
 								<div class="card-text">
                   <p class="font-weight-bold text-justify">
-                    "...ТЕ СА ПЪРВИТЕ УЧЕНИЦИ НА ПЪРВИЯТ УЧИТЕЛ В СЕЛО (СМОЧАН) - ДИМИТЪР НАЙДЕНОВ (БАТЕНЦЕТО). <br>
-                    ДОШЪЛ  Е ОТ С. БРЕСТОВО ЛОВЕШКО И Е БАЩА НА БАБА МАРИЙКА, МАЙКАТА НА СТРИНКА ВИНКА. <br>
+                    "...ТЕ СА ПЪРВИТЕ УЧЕНИЦИ НА ПЪРВИЯ УЧИТЕЛ В СЕЛО (СМОЧАН) - ДИМИТЪР НАЙДЕНОВ (БАТЕНЦЕТО). <br>
+                    ДОШЪЛ Е ОТ С. БРЕСТОВО ЛОВЕШКО И Е БАЩА НА БАБА МАРИЙКА, МАЙКАТА НА СТРИНКА ВИНКА. <br>
                     ТУК СЕ ЖЕНИ ЗА БАБА СЪБА ОТ РОДА ПЕТРОВЧИНИ. ТУК СЕ РАЖДАТ И ДЕЦАТА МУ. <br>
-                    СЛЕД ИДВАНЕТО НА УЧИТЕЛ С ПЕДАГОГИЧЕСКО ОБРАЗОВАНИЕ. ЗАМИНАВА ЗА ЛОВЕЧ И ТАМ ОСТАВА ДО КРАЯ НА ЖИВОТА СИ.
-                  
-                    ИЗ СПОМЕНИТЕ НА ДОЧО ВЪЛЧЕВ ОТ С. СМОЧАН"
+                    СЛЕД ИДВАНЕТО НА УЧИТЕЛ С ПЕДАГОГИЧЕСКО ОБРАЗОВАНИЕ. ЗАМИНАВА ЗА ЛОВЕЧ И ТАМ ОСТАВА ДО КРАЯ НА ЖИВОТА СИ."
                   </p>
                   <p class="font-weight-bold">
                     ИЗ СПОМЕНИТЕ НА ДОЧО ВЪЛЧЕВ ОТ С. СМОЧАН
@@ -200,7 +207,7 @@
 								<img src="img/children/petar.jpg" class="mb-3 img-thumbnail" alt="image">
 								<h3 class="card-title h5"><a href="children.html#section-2">ПЕТЪР ДИМИТРОВ НАЙДЕНОВ</a></h3>
 								<div class="card-text">
-                  <p>род. 17.06.1888 г.<br> / поч.06.12.1979 г.<br> в  БЛАГОЕВГРАД.</p>
+                  <p>род. 17.06.1888 г.<br> / поч. 06.12.1979 г.<br> в  БЛАГОЕВГРАД.</p>
                 </div>
 							</div>
 						</div>
@@ -222,7 +229,7 @@
 								<img src="img/children/marijka.jpg" class="mb-3 img-thumbnail" alt="image">
 								<h3 class="card-title h5"><a href="children.html#section-4">МАРИЙКА ДИМИТРОВА ЛИЧЕВА</a></h3>
 								<div class="card-text">
-                  <p>род.16.06.1892 г.<br> / поч. 00.00.1979 г.<br> в СОФИЯ</p>
+                  <p>род.16.06.1892 г.<br> / поч. 1979 г.<br> в СОФИЯ</p>
                 </div>
 							</div>
 						</div>
@@ -274,7 +281,7 @@
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5">
             <img src="img/grandchildren/dimityr/mitko1.jpg" class="mb-3 img-thumbnail" alt="image">
 						<h3 class="text-center h5"><a href="grandchildren.html#section-2">ДИМИТЪР ПЕТРОВ ДИМИТРОВ</a></h3>
-						<p class="text-center">род. 01.01.1920 г. <br>/ поч.03.04.1986 г.<br> в СОФИЯ</p>
+						<p class="text-center">род. 01.01.1920 г. <br>/ поч. 03.04.1986 г.<br> в СОФИЯ</p>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5">
             <img src="img/board_640.webp" class="mb-3 img-thumbnail" width="100%" height="auto" alt="image">
@@ -309,7 +316,7 @@
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5">
             <img src="img/grandchildren/liudmil/lyudmildim01.jpg" class="mb-3 img-thumbnail" alt="image">
 						<h3 class="text-center h5"><a href="grandchildren.html#section-6">ЛЮДМИЛ ВАСИЛЕВ ДИМИТРОВ</a></h3>
-						<p class="text-center">род. 01.07.1038 г.<br> / поч. 00.00.2009 г.<br> в СОФИЯ</p>
+						<p class="text-center">род. 01.07.1038 г.<br> / поч. 2009 г.<br> в СОФИЯ</p>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5">
             <img src="img/grandchildren/aleksandyr/vladimirov01.jpg" class="mb-3 img-thumbnail" alt="image">
@@ -339,7 +346,7 @@
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
             <img src="img/board_640.webp" class="mb-3 img-thumbnail" alt="image">
-						<h3 class="h5"><a href="great-grandchildren.html#section-3">ЖАСМИНА ......</a></h3>
+						<h3 class="h5"><a href="great-grandchildren.html#section-3">ЖАСМИНА</a></h3>
 						<p></p>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
@@ -374,7 +381,7 @@
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
             <img src="img/board_640.webp" class="mb-3 img-thumbnail" alt="image">
-						<h3 class="h5"><a href="great-grandchildren.html#section-8">ВЕРА АТАНАСОВА ..........</a></h3>
+						<h3 class="h5"><a href="great-grandchildren.html#section-8">ВЕРА АТАНАСОВА</a></h3>
 						<p></p>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
@@ -384,7 +391,7 @@
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
             <img src="img/board_640.webp" class="mb-3 img-thumbnail" alt="image">
-						<h3 class="h5"><a href="great-grandchildren.html#section-8">ЕМИЛИЯ АТАНАСОВА .....</a></h3>
+						<h3 class="h5"><a href="great-grandchildren.html#section-8">ЕМИЛИЯ АТАНАСОВА</a></h3>
 						<p></p>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
@@ -436,12 +443,12 @@
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
             <img src="img/board_640.webp" class="mb-3 img-thumbnail" alt="image">
 						<h3 class="h5"><a href="great-great-grandchildren.html#section-6">НИКОЛАЙ ДИМИТРОВ НЕНКОВ</a></h3>
-						<p>род. 14.12.1957 г.<br> в ЛОВЕЧ</p>
+						<p></p>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
             <img src="img/board_640.webp" class="mb-3 img-thumbnail" alt="image">
 						<h3 class="h5"><a href="great-great-grandchildren.html#section-7">СОНЯ ВЛАДИМИРОВА РАЙЧЕВА</a></h3>
-						<p>род. 05.04.1960 г.</p>
+						<p></p>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
             <img src="img/board_640.webp" class="mb-3 img-thumbnail" alt="image">
@@ -456,16 +463,16 @@
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
             <img src="img/board_640.webp" class="mb-3 img-thumbnail" alt="image">
 						<h3 class="h5"><a href="great-great-grandchildren.html#section-8">СВИЛЕН СТАНИМИРОВ СТОЯНОВ</a></h3>
-						<p>род. 13.06.1951 г.<br> в ЛОВЕЧ</p>
+						<p></p>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
             <img src="img/board_640.webp" class="mb-3 img-thumbnail" alt="image">
 						<h3 class="h5"><a href="great-great-grandchildren.html#section-8">НИКОЛА СТАНИМИРОВ СТОЯНОВ</a></h3>
-						<p>род. 10.03.1953 г.<br> в СОФИЯ</p>
+						<p></p>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
             <img src="img/board_640.webp" class="mb-3 img-thumbnail" alt="image">
-						<h3 class="h5"><a href="great-great-grandchildren.html#section-9">ПЕТЪР ВЛАДИМИРОВ .....</a></h3>
+						<h3 class="h5"><a href="great-great-grandchildren.html#section-9">ПЕТЪР ВЛАДИМИРОВ</a></h3>
 						<p></p>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
@@ -485,7 +492,7 @@
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
             <img src="img/board_640.webp" class="mb-3 img-thumbnail" alt="image">
-						<h3 class="h5"><a href="great-great-grandchildren.html#section-12">ЕМИ ?</a></h3>
+						<h3 class="h5"><a href="great-great-grandchildren.html#section-12">ЕМИ</a></h3>
 						<p></p>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
@@ -511,12 +518,12 @@
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
             <img src="img/board_640.webp" class="mb-3 img-thumbnail" alt="image">
 						<h3 class="h5"><a href="great-great-grandchildren.html#section-15">АЛЕКСАНДЪР ГЕОРГИЕВ ВЛАДИМИРОВ</a></h3>
-						<p></p>
+						<p>род. 31.01.2012 г.</p>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
             <img src="img/board_640.webp" class="mb-3 img-thumbnail" alt="image">
 						<h3 class="h5"><a href="great-great-grandchildren.html#section-15">МАРТИН ГЕОРГИЕВ ВЛАДИМИРОВ</a></h3>
-						<p></p>
+						<p>род. 02.10.2016 г.</p>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
             <img src="img/board_640.webp" class="mb-3 img-thumbnail" alt="image">
@@ -551,7 +558,7 @@
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mb-3 mb-sm-5 text-center">
             <img src="img/board_640.webp" class="mb-3 img-thumbnail" alt="image">
-            <h3 class="h5"><a href="last-generation.html#section-4">МАРИЯ ПЕТРОВА .....</a></h3>
+            <h3 class="h5"><a href="last-generation.html#section-4">МАРИЯ ПЕТРОВА</a></h3>
             <p></p>
           </div>
         </div>
@@ -559,7 +566,7 @@
       </div>
       
     </main>
-    <footer class="small bg-light">
+    <footer class="bg-light">
       <div class="container py-3 py-sm-5 text-center">
         <img src="img/tree_logo.png" alt="Родословие" class="mb-2 mb-sm-4" alt="image">
         <p class="mb-2 mb-sm-4">&copy; 2023 Людмил Герганов. Всички права запазени.</p>
