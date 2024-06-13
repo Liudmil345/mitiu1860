@@ -171,7 +171,7 @@
                         ПРОФЕСИЯ – МЕД. СЕСТРА
                       </p>
 
-                      <div id="carouselExampleIndicators8" class="carousel slide mb-5" data-ride="carousel">
+                      <div id="carouselExampleIndicators8" class="carousel slide mb-5" data-ride="false">
                         <ol class="carousel-indicators bg-dark">
                           <li data-target="#carouselExampleIndicators8" data-slide-to="0" class="active"></li>
                           <li data-target="#carouselExampleIndicators8" data-slide-to="1"></li>
@@ -651,20 +651,6 @@
       $(function () {
         $('[data-toggle="tooltip"]').tooltip()
       })
-
-      $(function(){
-        $('#carouselExampleIndicators8.slide').carousel({
-            interval: 5000,
-            pause: "hover"
-        });
-
-        $('input').focus(function(){
-          $("#carouselExampleIndicators8").carousel('pause');
-        }).blur(function() {
-          $("#carouselExampleIndicators8").carousel('cycle');
-        });
-      });
-
     </script>
   </body>
 </html>
