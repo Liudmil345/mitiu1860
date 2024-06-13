@@ -107,7 +107,7 @@
               <span class="text-primary font-italic">МАРИН БОЧЕВ МАРИНОВ - СЪПРУГ</span> - <br> род. 29.03.1896 г. / поч. 01.03.1988 г. в СОФИЯ<br>
               ПРОФЕСИЯ – МАЙСТОР ЗАНАЯТЧИЯ
             </p>
-            <div id="carouselExampleIndicators6" class="carousel slide mb-5" data-ride="carousel">
+            <div id="carouselExampleIndicators6" class="carousel slide mb-5" data-ride="false">
               <ol class="carousel-indicators bg-dark">
                 <li data-target="#carouselExampleIndicators6" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators6" data-slide-to="1"></li>
@@ -307,20 +307,6 @@
       $(function () {
         $('[data-toggle="tooltip"]').tooltip()
       })
-
-      $(function(){
-        $('#carouselExampleIndicators6.slide').carousel({
-            interval: 5000,
-            pause: "hover"
-        });
-
-        $('input').focus(function(){
-          $("#carouselExampleIndicators6").carousel('pause');
-        }).blur(function() {
-          $("#carouselExampleIndicators6").carousel('cycle');
-        });
-      });
-
     </script>
   </body>
 </html>
