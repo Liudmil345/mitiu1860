@@ -177,7 +177,7 @@
                         ПРОФЕСИЯ – СЧЕТОВОДИТЕЛ; ХОБИ – ХУДОЖНИК<br>
                       </p>
 
-                      <div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
+                      <div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="false">
                         <ol class="carousel-indicators bg-dark">
                           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -249,7 +249,7 @@
                         ПРОФЕСИЯ – ФАРМАЦЕВТ
                       </p>
                     
-                      <div id="carouselExampleIndicators2" class="carousel slide mb-5" data-ride="carousel">
+                      <div id="carouselExampleIndicators2" class="carousel slide mb-5" data-ride="false">
                         <ol class="carousel-indicators bg-dark">
                           <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
                           <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
@@ -571,33 +571,6 @@
       $(function () {
         $('[data-toggle="tooltip"]').tooltip()
       })
-
-      $(function(){
-        $('#carouselExampleIndicators.slide').carousel({
-            interval: 5000,
-            pause: "hover"
-        });
-
-        $('input').focus(function(){
-          $("#carouselExampleIndicators").carousel('pause');
-        }).blur(function() {
-          $("#carouselExampleIndicators").carousel('cycle');
-        });
-      });
-
-      $(function(){
-        $('#carouselExampleIndicators2.slide').carousel({
-            interval: 5000,
-            pause: "hover"
-        });
-
-        $('input').focus(function(){
-          $("#carouselExampleIndicators2").carousel('pause');
-        }).blur(function() {
-          $("#carouselExampleIndicators2").carousel('cycle');
-        });
-      });
-
     </script>
   </body>
 </html>
